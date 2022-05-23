@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&family=Zen+Maru+Gothic&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
+  /* font-weight:500; */
+  
+}
+header {
+  /* height: 60px; */
+  background-color: var(--main-bg-color);
+  
+}
+nav {
+  display: flex;
+}
+.contains
+{
+  background: rgb(220, 235, 255);
+}
+.logoss {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 165px;
+}
+.logoss a{
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 0;
+    font-weight: 700;
+    color:white;
+    text-decoration: none;
+}
+.logoss a:hover{
+    text-decoration: underline;
+    color: white;
+}
+ .logoimage {
+  width: 121px;
+  padding: 0 25px;
+  margin-bottom: 0;
+  margin-top: 11px;
+}
+.logoss span{
+  color: #FFE500;
+  font-weight:bolder;
+  font-family: sans-serif;
+}
+.spanimage{
+  width: 10px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 57px;
+  margin: 0 5px;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+.textdecorr {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+nav ul li a:hover {
+  font-weight: 900;
+  cursor: pointer;
+  color: white;
+}
+.arrow-svg {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  margin: 1px 0 0 8px;
+}
+.arrow-path {
+  fill: #fff;
+  opacity: .8;
+}
+.V3C5bO {
+  width: 16px;
+  height: 16px;
+  margin: 0 8px;
+}
+#cart{
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.space{
+  margin:0px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  padding: 0 15px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 34px;
+  width: 32vw;
+  font-size: bold;
+}
+.faviconSearch{
+  background-color: white;
+  padding: 3px 12px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 34px;
+  
+}
+.btnss{
+  display: flex;
+  justify-content: center;
+  padding: 0 40px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 18px;
+  height: 31px;
+  background-color:white;
+  color: #2874f0;
+  font-weight: bolder;
+}
+
+.btnss:hover {
+ cursor: pointer;
+}
+.categories{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.covering{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -24px;
+}
+.coverings{
+  display:flex; 
+  flex-direction: row;
+  margin-bottom: -24px;
+}
+.items img{
+  width: 100px;
+}
+.items{
+  display: flex;
+  flex-direction:column ;
+  margin:0 20px;
+  align-items: center;
+}.items:hover{
+  cursor: pointer;
+}.items p{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px 0px;
+}
+.items p:hover{
+  color:#2874f0;
+}
+.sli1 {
+  left: 0;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: absolute;
+  top: calc(50% - 52px);
+  width: 47px;
+  height: 104px;
+  background-color: hsla(0,0%,100%,.98);
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 11%);
+  transition: opacity .1s ease-in;
+}
+.sli1:hover{
+  cursor: pointer;
+}
+.paths {
+  fill: #212121;
+}
+.slider {
+  margin: 20px auto;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.sli2 {
+  right: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: absolute;
+  top: calc(50% - 52px);
+  width: 47px;
+  height: 104px;
+  background-color: hsla(0,0%,100%,.98);
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 11%);
+  transition: opacity .1s ease-in;
+}
+.sli2:hover{
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  /* padding-right: var(--bs-gutter-x,.75rem); */
+  /* padding-left: var(--bs-gutter-x,.75rem); */
+  margin-right: 0;
+  margin-left: 0;
+}
+.covering h3{
+  font-weight: bolder;
+    font-size: 24px;
+    margin: 25px 33px;
+}
+.coverings h3{
+  font-weight: bolder;
+    font-size: 24px;
+    margin: 25px 33px;
+}
+.card {
+  max-width: 99vw;
+  margin: auto;
+  
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center; 
+   justify-content: center;
+   margin-top:10px;
+}
+.cards img:hover{
+  cursor: pointer;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.first{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.second{
+  text-align: center;
+  font-size: 14px;
+  color: green;
+}
+.third
+{ text-align: center;
+  font-size: 14px;
+  color: grey;
+}
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+footer {
+  height: 380px;
+  background-color: #172337;
+  color: white;
+}
+.outer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.innerelements{
+  margin: 40px 44px;
+  font-size: 11px;
+  color: #959595;
+  font-weight: 600;
+  letter-spacing: 1px;
+}.inner1{
+  display: flex;
+  flex-direction: row;
+}
+.paras{
+  color: white;
+  margin: 8px 0;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+.paraDiv{
+  margin-top: 20px;
+}.vertical {
+  border-left: 1px solid gray;
+  height: 165px;
+  position:absolute;
+  margin-top: 40px;
+  /* left: 50%; */
+}
+.paras2{
+  color: white;
+  margin: 1px 0;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+.ending{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.endingelements{
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Zen Maru Gothic';
+}.ending img{
+  margin: 0px 6px;
+}

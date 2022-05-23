@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlipKart</title>
+    <link
+      rel="icon"
+      href="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/flipkart-128.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logoss">
+          <img class="logoimage" src="img/logo.png" alt="" />
+          <a href="#"
+            >Explore
+            <span>Plus<img class="spanimage" src="img/logo2.png" alt="" /></span
+          ></a>
+        </div>
+
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Search for products,brands and more"
+          /><button class="faviconSearch" type="submit">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 17 18"
+              class=""
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g fill="#2874F1" fill-rule="evenodd">
+                <path
+                  class="_34RNph"
+                  d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"
+                ></path>
+                <path
+                  class="_34RNph"
+                  d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <ul>
+            <li><button class="btnss">Login</button></li>
+            <li><a class="textdecorr">Become a Seller</a></li>
+            <li>
+              <a class="textdecorr">More</a
+              ><svg
+                width="4.7"
+                height="8"
+                viewBox="0 0 16 27"
+                xmlns="http://www.w3.org/2000/svg"
+                class="arrow-svg"
+              >
+                <path
+                  d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                  fill="#fff"
+                  class="arrow-path"
+                ></path>
+              </svg>
+            </li>
+            <li id="cart">
+              <svg
+                class="V3C5bO"
+                width="14"
+                height="14"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="_1bS9ic"
+                  d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                  fill="#fff"
+                ></path>
+              </svg>
+              <a class="textdecorr">Cart</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="categories">
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100"
+          alt=""
+        />
+        <p>Top Offers</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"
+          alt=""
+        />
+        <p>Grocery</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"
+          alt=""
+        />
+        <p>Mobiles</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100"
+          alt=""
+        />
+        <p>Fashion</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"
+          alt=""
+        />
+        <p>Electronics</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100"
+          alt=""
+        />
+        <p>Home</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100"
+          alt=""
+        />
+        <p>Appliances</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100"
+          alt=""
+        />
+        <p>Travel</p>
+      </div>
+      <div class="items">
+        <img
+          src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100"
+          alt=""
+        />
+        <p>Beauty, Toys and more</p>
+      </div>
+    </div>
+    <main>
+      <div class="contains">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide mt-4"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img
+                src="https://source.unsplash.com/1550x400/?shopping"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="https://source.unsplash.com/1550x400/?devices"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://source.unsplash.com/1550x400/?keyboard"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://source.unsplash.com/1550x400/?technology"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://source.unsplash.com/1550x400/?camera"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://source.unsplash.com/1550x400/?phone"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="sli1">
+            <svg
+              width="14.6"
+              height="27"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class=""
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="paths"
+              ></path>
+            </svg>
+          </div>
+
+          <button
+            style="opacity: 0; cursor: auto"
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <div class="sli2">
+            <svg
+              width="14.6"
+              height="27"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class=""
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="paths"
+              ></path>
+            </svg>
+          </div>
+
+          <button
+            style="opacity: 0; cursor: auto"
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card">
+          <div style="display: flex; flex-direction: row" class="coverings">
+            <h3>Deals of the Day</h3>
+            <svg
+              style="margin: 25px"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="34"
+              height="37"
+              viewBox="0 0 34 37"
+            >
+              <defs>
+                <linearGradient
+                  id="c"
+                  x1="81.964%"
+                  x2="28.905%"
+                  y1="86.97%"
+                  y2="19.06%"
+                >
+                  <stop offset="0%" stop-color="#F4F4F4" />
+                  <stop offset="100%" stop-color="#FFF" />
+                </linearGradient>
+                <circle id="b" cx="15" cy="18" r="15" />
+                <filter
+                  id="a"
+                  width="126.7%"
+                  height="126.7%"
+                  x="-6.7%"
+                  y="-6.7%"
+                  filterUnits="objectBoundingBox"
+                >
+                  <feOffset
+                    dx="2"
+                    dy="2"
+                    in="SourceAlpha"
+                    result="shadowOffsetOuter1"
+                  />
+                  <feGaussianBlur
+                    in="shadowOffsetOuter1"
+                    result="shadowBlurOuter1"
+                    stdDeviation="1"
+                  />
+                  <feColorMatrix
+                    in="shadowBlurOuter1"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+                  />
+                </filter>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <path
+                  fill="#5C5C5C"
+                  d="M12 1c0-.552.438-1 1.003-1h4.994A.999.999 0 0 1 19 1v4h-7V1zm11 6.5L25.5 5 28 7.5 25.5 10z"
+                />
+                <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                <use fill="url(#c)" xlink:href="#b" />
+                <rect
+                  width="2"
+                  height="8"
+                  x="14"
+                  y="11"
+                  fill="#D0021B"
+                  rx="1"
+                />
+                <path
+                  fill="#D0021B"
+                  d="M23.401 20.36c.431.12.684.591.573 1.023a.806.806 0 0 1-.989.589L14.6 19.64c-.431-.12-.684-.591-.573-1.023a.806.806 0 0 1 .989-.589L23.4 20.36z"
+                />
+              </g>
+            </svg>
+            <span style="margin-top: 29px"
+              ><span><span>19 : </span><span>07 : </span><span>36</span></span>
+              Left</span
+            >
+          </div>
+          <hr />
+          <div class="cards">
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?tshirts"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Tshirts</p>
+                <p class="second my-1">Flat 30% off</p>
+                <p class="third">Men's Clothing</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?sunglasses"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Sunglasses</p>
+                <p class="second my-1">From &#x20B9; 299</p>
+                <p class="third">Eyewear opticals</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?earphones"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Earphones</p>
+                <p class="second my-1">From &#x20B9; 199</p>
+                <p class="third">Sound Devices</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?speakers"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Speakers</p>
+                <p class="second my-1">Flat 20% off</p>
+                <p class="third">Sound Devices</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?shoes"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Shoes</p>
+                <p class="second my-1">From &#x20B9; 499</p>
+                <p class="third">Footwears</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?headphones"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Headphones</p>
+                <p class="second my-1">Flat 15% off</p>
+                <p class="third">Sound Devices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="covering">
+            <h3>Trending Offers</h3>
+            <button
+              type="button"
+              class="btn btn-primary"
+              style="
+                width: 98px;
+                height: 40px;
+                font-weight: 600;
+                font-size: 14px;
+                letter-spacing: 0.3px;
+                margin: 16px 31px;
+              "
+            >
+              VIEW ALL
+            </button>
+          </div>
+          <hr />
+          <div class="cards">
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?watches"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Watches</p>
+                <p class="second my-1">Flat 20% off</p>
+                <p class="third">Men's Wearing</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?bagpacks"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Bagpacks</p>
+                <p class="second my-1">From &#x20B9; 699</p>
+                <p class="third">Study Accesories</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?Rings"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Rings</p>
+                <p class="second my-1">From &#x20B9; 259</p>
+                <p class="third">Jewellery</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?books"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Books</p>
+                <p class="second my-1">Flat 20% off</p>
+                <p class="third">Study Accessories</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?perfumes"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Perfumes</p>
+                <p class="second my-1">From &#x20B9; 499</p>
+                <p class="third">Cosmetics</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?Chargers"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Chargers</p>
+                <p class="second my-1">Flat 15% off</p>
+                <p class="third">Mobile Accessories</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="covering">
+            <h3>Most Popular Products</h3>
+            <button
+              type="button"
+              class="btn btn-primary"
+              style="
+                width: 98px;
+                height: 40px;
+                font-weight: 600;
+                font-size: 14px;
+                letter-spacing: 0.3px;
+                margin: 16px 31px;
+              "
+            >
+              VIEW ALL
+            </button>
+          </div>
+          <hr />
+          <div class="cards">
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?Shirts"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Shirts</p>
+                <p class="second my-1">Flat 30% off</p>
+                <p class="third">Men's Clothing</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?clocks"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Clocks</p>
+                <p class="second my-1">From &#x20B9; 299</p>
+                <p class="third">Time is Money</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?earpods"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Earpods</p>
+                <p class="second my-1">From &#x20B9; 199</p>
+                <p class="third">Sound Devices</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?tablefan"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Table Fan</p>
+                <p class="second my-1">Flat 20% off</p>
+                <p class="third">Household Accessories</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?Shampoo"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">Shampoos</p>
+                <p class="second my-1">From &#x20B9; 99</p>
+                <p class="third">Household Accesories</p>
+              </div>
+            </div>
+            <div class="card-item">
+              <img
+                src="https://source.unsplash.com/120x150/?bedsheets"
+                alt=""
+                width="200px"
+              />
+
+              <div class="lines">
+                <p class="first my-1">BedSheets</p>
+                <p class="second my-1">Flat 15% off</p>
+                <p class="third">Household Accesories</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="aa">
+      <div class="foots">
+        <div class="outer">
+          <div class="inner1">
+            <div class="innerelements">
+              ABOUT
+              <div class="paraDiv">
+                <p class="paras">Contact Us</p>
+                <p class="paras">About Us</p>
+                <p class="paras">Carriers</p>
+                <p class="paras">Flipkart Stories</p>
+                <p class="paras">Press</p>
+                <p class="paras">Flipkart Wholesale</p>
+                <p class="paras">Corporate Information</p>
+              </div>
+            </div>
+            <div class="innerelements">
+              HELP
+              <div class="paraDiv">
+                <p class="paras">Payments</p>
+                <p class="paras">Shipping</p>
+                <p class="paras">Cancellation and Returns</p>
+                <p class="paras">FAQ</p>
+                <p class="paras">Report Infringement</p>
+              </div>
+            </div>
+            <div class="innerelements">
+              POLICY
+              <div class="paraDiv">
+                <p class="paras">Return Policy</p>
+                <p class="paras">Terms of Use</p>
+                <p class="paras">Security</p>
+                <p class="paras">Privacy</p>
+                <p class="paras">Sitemap</p>
+                <p class="paras">EPR Compliance</p>
+              </div>
+            </div>
+
+            <div class="innerelements">
+              SOCIAL
+              <div class="paraDiv">
+                <p class="paras">Facebook</p>
+                <p class="paras">Twitter</p>
+                <p class="paras">Youtube</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner1">
+            <div class="vertical"></div>
+            <div class="innerelements">
+              Mail Us:
+              <div class="paraDiv">
+                <p class="paras2">Flipkart Internet Private Limited</p>
+                <p class="paras2">Buildings Alyssa, Begonia &</p>
+                <p class="paras2">Clove Embassy Tech Village,</p>
+                <p class="paras2">
+                  Outer Ring Road, Devarabeesanahalli Village,
+                </p>
+                <p class="paras2">Bengaluru, 560103,</p>
+                <p class="paras2">Karnataka, India</p>
+              </div>
+            </div>
+            <div class="innerelements">Registered Office Address:
+              <div class="paraDiv">
+                <p class="paras2">Flipkart Internet Private Limited</p>
+                <p class="paras2">Buildings Alyssa, Begonia &</p>
+                <p class="paras2">Clove Embassy Tech Village,</p>
+                <p class="paras2">
+                  Outer Ring Road, Devarabeesanahalli Village,
+                </p>
+                <p class="paras2">Bengaluru, 560103,</p>
+                <p class="paras2">Karnataka, India</p>
+                <p class="paras2">CIN : U51109KA2012PTC066107
+
+                  </p>
+                <p class="paras2">Telephone: <span style="color:#2874F0">1800 202 9898</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="ending">
+       <div class="endingelements"><img src="img/11.svg" alt=""> Become a Seller </div>
+       <div class="endingelements"> <img src="img/22.svg" alt=""> Advertise</div>
+       <div class="endingelements"><img src="img/33.svg" alt="">Gift Card</div>
+       <div class="endingelements"><img src="img/44.svg" alt="">Help Center</div>
+       <div class="endingelements">&#169; 2007-2022 Flipkart.com</div>
+       <div class="endingelements"><img src="img/visa.svg"></div>
+      </div>
+    </footer>
+  </body>
+</html>
